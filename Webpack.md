@@ -317,7 +317,7 @@
 	devServer: {
 		contentBase: resolve(__dirname, 'dist'),
 		// 启动gzip压缩
-		compress: true
+		compress: true,
 		// 端口号
 		port: 3000,
 		// 是否自动打开浏览器
