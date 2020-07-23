@@ -73,7 +73,7 @@
 					// 小于 8kb的图片会被base64处理
 					// 优点：减少请求数量（减轻服务器压力）
 					// 缺点：图片体积会更大（文件请求速度更慢）
-					limit: 8 * 1024，
+					limit: 8 * 1024,
 					// url-loader 默认使用es6模块化解析，而 html-loader 引入图片是commonjs
 					// 解析时会出问题： [object Module]
 					// 解决： 关闭 url-loader的es6模块化，使用commonjs解析
@@ -529,7 +529,7 @@
 ### 做法一（多入口）：
 		  // 入口文件
 		  entry: {
-				index: './index.js'，
+				index: './index.js',
 				test: './test.js'
 			},
 		  // 输出文件
@@ -554,7 +554,7 @@
 		  */
 		  // 入口文件
 		  entry: {
-				index: './index.js'，
+				index: './index.js',
 				test: './test.js'
 			},
 			// 输出文件
